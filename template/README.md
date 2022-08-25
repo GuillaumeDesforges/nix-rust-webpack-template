@@ -1,3 +1,17 @@
+All commands here should be run in the Nix shell.
+
+Either enter Nix shell with
+
+```
+nix develop
+```
+
+or run command individually with
+
+```
+nix develop --command <your-command>
+```
+
 ## How to install
 
 ```sh

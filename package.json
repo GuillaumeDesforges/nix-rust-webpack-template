@@ -1,8 +1,8 @@
 {
-  "author": "Nick Fitzgerald <nfitzgerald@mozilla.com>",
-  "name": "create-rust-webpack",
-  "version": "0.2.0",
-  "repository": "https://github.com/rustwasm/rust-webpack-template",
+  "author": "Guillaume Desforges <guillaume.desforges.pro@gmail.com>",
+  "name": "create-nix-rust-webpack",
+  "version": "0.2.1",
+  "repository": "https://github.com/GuillaumeDesforges/nix-rust-webpack-template",
   "license": "(MIT OR Apache-2.0)",
   "bin": {
     "create-rust-webpack": ".bin/create-rust-webpack.js"

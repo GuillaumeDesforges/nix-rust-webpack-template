@@ -52,7 +52,7 @@ if (args.length >= 1) {
 let gitFolder = path.join(folderName, "git-clone");
 
 // This uses --no-tags and --depth 1 in order to make the cloning faster
-run("git", ["clone", "--no-tags", "--depth", "1", "https://github.com/rustwasm/rust-webpack-template.git", gitFolder]);
+run("git", ["clone", "--no-tags", "--depth", "1", "https://github.com/GuillaumeDesforges/nix-rust-webpack-template.git", gitFolder]);
 
 // Copies the template folder
 cpr(path.join(gitFolder, "template"), folderName, {}, function (err, files) {

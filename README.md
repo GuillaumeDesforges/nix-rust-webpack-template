@@ -1,8 +1,8 @@
 <div align="center">
 
-  <h1><code>rust-webpack-template</code></h1>
+  <h1><code>nix-rust-webpack-template</code></h1>
 
-  <strong>Kickstart your Rust, WebAssembly, and Webpack project!</strong>
+  <strong>Kickstart your Nix, Rust, WebAssembly, and Webpack project!</strong>
 
   <p>
     <a href="https://travis-ci.org/rustwasm/create-wasm-app"><img src="https://img.shields.io/travis/rustwasm/create-wasm-app.svg?style=flat-square" alt="Build Status" /></a>
@@ -22,6 +22,9 @@
 This template is designed for creating monorepo-style Web applications with
 Rust-generated WebAssembly and Webpack without publishing your wasm to NPM.
 
+A reproducible environment is provided with Nix.
+This is particularly useful for users on NixOS.
+
 [**📚 Read this template's tutorial! 📚**][template-docs]
 
 Be sure to check out [other `wasm-pack` tutorials online][tutorials] for other
@@ -35,7 +38,7 @@ templates and usages of `wasm-pack`.
 You can use `npm init` to clone this template:
 
 ```sh
-npm init rust-webpack my-app
+npm init nix-rust-webpack
 ```
 
 [Afterwards check out the full documentation for exploring it][template-docs].
@@ -44,6 +47,8 @@ npm init rust-webpack my-app
 
 This template comes pre-configured with all the boilerplate for compiling Rust
 to WebAssembly and hooking into a Webpack build pipeline.
+
+Commands specified below should be run in the Nix devShell provided.
 
 * `npm start` -- Serve the project locally for development at
   `http://localhost:8080`. It auto-reloads when you make any changes.
